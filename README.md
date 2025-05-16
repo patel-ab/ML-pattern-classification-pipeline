@@ -8,13 +8,9 @@ An end-to-end machine learning pipeline for pattern classification, featuring co
 ## 📁 Project Structure
 
 - `pattern_classification.ipynb` – Jupyter Notebook implementing the full ML workflow from preprocessing to model evaluation.
-- `custom_pca_sffs.py` – Contains custom implementations of Principal Component Analysis (PCA) and Sequential Floating Forward Selection (SFFS).
-- `preprocess.py` – Data preprocessing script with functions for normalization, encoding, and handling missing data.
-- `bayes_classifier.py` – Implementation of three Bayesian classifiers: Naive Bayes, Multivariate Gaussian, and Non-Parametric (Parzen).
-- `utils.py` – Helper functions for evaluation metrics and plotting.
 - `PS4_GamesSales.csv` – Raw dataset used for training and testing models.
 - `Report.pdf` – Project report explaining the motivation, methodology, experiments, results, and conclusions.
-- `requirements.txt` – Python dependencies required to run the project.
+
 
 ---
 
@@ -36,7 +32,6 @@ The target for classification is based on derived patterns or categories formed 
 ## 🧪 Pipeline Steps
 
 ### 1. Data Preprocessing
-Performed using functions in `preprocess.py` and inside the notebook:
 - Removal of duplicates
 - Handling of missing or invalid entries
 - Label Encoding for ordinal variables
@@ -91,8 +86,6 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
-
-If `requirements.txt` is not available, manually install:
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
